@@ -1,1 +1,18 @@
-background-color: red
+#barrita.container-fluid{
+    display: flex;
+    visibility: hidden;
+  }
+
+#barrita.header{
+    vertical-align: middle;
+  }
+
+  #boton-login.btn  {
+    margin-left: auto;
+    order: 2;
+  }
+
+
+#barra-1.navbar{
+    color:white
+}
