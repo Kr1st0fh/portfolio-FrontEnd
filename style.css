@@ -1,6 +1,9 @@
+body{
+  background-color: dimgray;
+}
+
 #barrita.container-fluid{
     display: flex;
-    visibility: hidden;
   }
 
 #barrita.header{
@@ -10,6 +13,7 @@
   #boton-login.btn  {
     margin-left: auto;
     order: 2;
+
   }
 
 
@@ -19,3 +23,9 @@
 }
 /***** VER LOS ID *****/
 
+#logo-final{
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+  left: 0; right: 0;
+}
