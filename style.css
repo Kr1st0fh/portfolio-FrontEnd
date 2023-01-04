@@ -23,6 +23,10 @@ body{
 }
 /***** VER LOS ID *****/
 
+#tarjeta{
+  background-color: brown;
+}
+
 #logo-final{
   margin: auto;
   position: absolute;
