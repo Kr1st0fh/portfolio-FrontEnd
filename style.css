@@ -11,20 +11,29 @@ body{
 }
 
 #boton-login a:link{
-  color:red !important
+  color:red !important;
+  text-decoration: none;
 } 
 
 #boton-login a:visited{
-  color:rgb(0, 0, 0) !important
+  color:rgb(0, 0, 0) !important;
+  text-decoration: none;
 } 
 
 #boton-login a:hover{
-  color:rgb(255, 0, 0) !important
+  color:rgb(0, 0, 0) !important;
+  text-decoration: none;
 } 
 
 #boton-login a:active{
-  color:rgb(124, 0, 0) !important
+  color:rgb(0, 0, 0) !important;
+  text-decoration: none;
 } 
+
+#boton-login {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
 
 /***** VER LOS ID *****/
 
@@ -41,7 +50,7 @@ body{
 #logo-final{
   margin: auto;
   position: absolute;
-  bottom: 0;
+  bottom: auto;
   left: 0; right: 0;
 }
 
