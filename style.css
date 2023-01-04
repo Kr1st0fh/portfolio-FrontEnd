@@ -7,14 +7,9 @@ h1{
   margin: 0;
 }
 
-p,h4,h6{
+p,h4,h6,h4.card-title{
   color: black;
 }
-
-h4.card-title{
-  color: black;
-}
-
 
 #titulo-diego{
   vertical-align: middle !important;
@@ -24,22 +19,7 @@ h4.card-title{
   margin-right: 20px;
 }
 
-#boton-login a:link{
-  color:rgb(0, 0, 0) !important;
-  text-decoration: none;
-} 
-
-#boton-login a:visited{
-  color:rgb(0, 0, 0) !important;
-  text-decoration: none;
-} 
-
-#boton-login a:hover{
-  color:rgb(0, 0, 0) !important;
-  text-decoration: none;
-} 
-
-#boton-login a:active{
+#boton-login a:link,a:visited,a:hover,a:active{
   color:rgb(0, 0, 0) !important;
   text-decoration: none;
 } 
@@ -56,8 +36,9 @@ h4.card-title{
 }
 
 #primer-container{
-  
-  
+  padding:50px;
+    outline: 1px solid white;
+    outline-offset: -20px;
 }
 
 #logo-final{
