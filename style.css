@@ -2,6 +2,20 @@ body{
   background-color: dimgray;
 }
 
+h1{
+  font-size: larger;
+  margin: 0;
+}
+
+p,h4,h6{
+  color: black;
+}
+
+h4.card-title{
+  color: black;
+}
+
+
 #titulo-diego{
   vertical-align: middle !important;
 }
