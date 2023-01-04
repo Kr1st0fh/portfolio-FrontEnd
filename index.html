@@ -18,22 +18,7 @@
     
   </head>
 
-  <nav id="barra-1" class="navbar navbar-light bg-dark">
-    <a class="navbar-brand" href="#">
-      <img
-        src="svg/afa-logo.svg"
-        width="30"
-        height="30"
-        class="d-inline-block align-top"
-        alt=""
-      /></a>
-      <h5 style="color:white; vertical-align:middle">Portfolio Diego</h5> <!-- ========== REVISAR ESTO ========== -->
-      
-    <button id="boton-login" type="button" class="btn btn-info">
-      <a href="/login.html">Login</a>
-  </nav>
-
-<!-- ========== NAV CON CONTAINER ==
+  <!-- ========== NAV CON CONTAINER ==
 
   <div id="barrita" class="container-fluid bg-dark text-white d-flex">
     <header>Portoflio - Diego</header>
@@ -45,23 +30,40 @@
 ======== -->
 
   <body>
+
+    <nav class="navbar navbar-light bg-dark">
+      <a class="navbar-brand" href="#">
+        <img
+          src="svg/afa-logo.svg"
+          width="30"
+          height="30"
+          class="d-inline-block align-top"
+          alt=""
+        /></a>
+        <h5 id="titulo-diego"style="color:white">Portfolio Diego</h5> <!-- ========== REVISAR ESTO ========== -->
+        
+      <button id="boton-login" type="button" class="btn btn-info">
+        <a href="login.html">Login</a>
+    </nav>
+
+
     <br>
     <br>
     <br>
     <br>
     <br>
     
-    <div  class="card bg-danger" style="width:200px">
+    <div id="tarjeta" class="card bg-danger" style="width:200px">
       <img class="card-img-top" src="png/hanamichi.png" alt="Card image">
       <div class="card-body">
         <h4 class="card-title">Diego</h4>
         <p class="card-text">Estudiante.</p>
-        <a href="#" class="btn btn-primary">+ INFO</a>
+        <a href="#" class="btn btn-danger">+ INFO</a>
       </div>
     </div>
 
 
-    <div class="container-fluid pt-5 my-5 border">
+    <div id="primer-container" class="container-fluid pt-5 my-5 border">
       <h4>Diego</h4>
       <h6>Estudiante</h6>
       <p>Este es mi portfolio en construcción.</p>

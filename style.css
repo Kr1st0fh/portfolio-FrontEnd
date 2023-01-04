@@ -2,29 +2,40 @@ body{
   background-color: dimgray;
 }
 
-#barrita.container-fluid{
-    display: flex;
-  }
-
-#barrita.header{
-    vertical-align: middle;
-  }
-
-  #boton-login.btn  {
-    margin-left: auto;
-    order: 2;
-
-  }
-
-
-#barra-1.a{
-    color: white;
-    
+#titulo-diego{
+  vertical-align: middle !important;
 }
+
+#boton-login{
+  margin-right: 10px;
+}
+
+#boton-login a:link{
+  color:red !important
+} 
+
+#boton-login a:visited{
+  color:rgb(0, 0, 0) !important
+} 
+
+#boton-login a:hover{
+  color:rgb(255, 0, 0) !important
+} 
+
+#boton-login a:active{
+  color:rgb(124, 0, 0) !important
+} 
+
 /***** VER LOS ID *****/
 
 #tarjeta{
-  background-color: brown;
+  margin-left: 10px;
+}
+
+#primer-container{
+  margin-left: 10px;
+  margin-right: 50px;
+  
 }
 
 #logo-final{
@@ -33,3 +44,9 @@ body{
   bottom: 0;
   left: 0; right: 0;
 }
+
+
+
+
+/***** PAG CSS DE LOGIN.HTML *****/
+
