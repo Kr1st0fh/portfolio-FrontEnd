@@ -32,7 +32,7 @@
     <nav class="justify-content-start navbar navbar-light bg-dark p-0">
       <a class="navbar-brand mx-5" href="#">
         <img
-          src="svg/afa-logo.svg"
+          src="png/dl-logo.png"
           width="40"
           height="40"
           class="d-inline-block align-top logo"
@@ -42,8 +42,14 @@
         <h1 id="titulo-diego" style="color: white">Portfolio Diego</h1>
         <!-- ========== REVISAR ESTO ========== -->
       </div>
-      <button id="boton-login" type="button" class="btn btn-danger">
-        <a href="login.html">LOGIN</a>
+      <button
+        id="boton-login"
+        type="button"
+        class="btn btn-danger"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#ventanalogin"
+      >
+        LOGIN
       </button>
     </nav>
 
@@ -137,15 +143,55 @@
         <h4>Idioma</h4>
         <p>ESPAÑOL</p>
 
-        <div class="progress" style="width: 400px">
+        <div class="progress mb-3" style="width: 400px">
           <div class="progress-bar bg-info" style="width: 100%"></div>
         </div>
 
         <p>CHINO</p>
 
-        <div class="progress" style="width: 400px">
+        <div class="progress mb-3" style="width: 400px">
           <div class="progress-bar bg-danger" style="width: 10%"></div>
         </div>
+      </div>
+    </div>
+
+    <div
+      class="offcanvas offcanvas-end text-bg-dark w-auto"
+      id="ventanalogin"
+      data-bs-scroll="true"
+      tabindex="-1"
+    >
+      <div class="offcanvas-header"></div><h1 class="offcanvas-title">Inciar Sesión</h1>
+
+        <form action="/action_page.php">
+          <div class="mb-3 mt-3">
+            <label for="email" class="form-label">Email:</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Email"
+              name="email"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="pwd" class="form-label">Contraseña:</label>
+            <input
+              type="password"
+              class="form-control"
+              id="pwd"
+              placeholder="Contraseña"
+              name="pswd"
+            />
+          </div>
+          <div class="form-check mb-3">
+            <label class="form-check-label">
+              <input class="form-check-input" type="checkbox" name="remember" />
+              Recuerdame
+            </label>
+          </div>
+          <button type="submit" class="btn btn-primary">Entrar</button>
+        </form>
       </div>
     </div>
 

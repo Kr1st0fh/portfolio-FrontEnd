@@ -1,5 +1,5 @@
 body{
-  background-color: dimgray;
+  background-color:gray;
 }
 
 h1{
@@ -19,15 +19,15 @@ p,h4,h6,h4.card-title{
   margin-right: 20px;
 }
 
-#boton-login a:link,a:visited,a:hover,a:active{
+#boton-login {
   color:rgb(0, 0, 0) !important;
-  text-decoration: none;
 } 
 
 #boton-login {
   font-family: 'Courier New', Courier, monospace;
   font-weight: bold;
 }
+
 
 /***** VER LOS ID *****/
 
