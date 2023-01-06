@@ -28,8 +28,14 @@
 
 ======== -->
 
-  <body>
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
     <nav class="justify-content-start navbar navbar-light bg-dark p-0">
+
+      <ul class="navbar-nav">
+        <li><a href="#section1">Section 1</a></li>
+        <li><a href="#section2">Section 2</a></li>
+      </ul>
+
       <a class="navbar-brand mx-5" href="#">
         <img
           src="png/dl-logo.png"
@@ -57,7 +63,7 @@
       <div id="tarjeta" class="card bg-danger my-5" style="width: 200px">
         <img class="card-img-top" src="png/hanamichi.png" alt="Card image" />
         <div class="card-body">
-          <h4 class="card-title">Diego</h4>
+          <h4 id="section1" class="card-title">Diego</h4>
           <p class="cardtext">Estudiante.</p>
           <a href="#" class="btn n-danger">+ INFO</a>
         </div>
@@ -124,7 +130,7 @@
       </div>
 
       <div id="primer-container" class="container-fluid pt-5 my-5 border">
-        <h4>Educación</h4>
+        <h4 id="section2">Educación</h4>
         <p>Este es mi portfolio en construcción.</p>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
